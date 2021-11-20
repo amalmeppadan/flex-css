@@ -1,0 +1,42 @@
+*{
+    font-family:Verdana ;
+    margin: 0;
+}
+body{
+    background: white;
+}
+.wrapper{
+    width:100%;
+    max-width: 960px;
+    margin:0 auto;
+
+}
+nav{
+    background-color:red;
+    
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    
+
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    padding: 30px;
+
+}
+nav a:hover{
+    background-color:violet;
+}
+@media screen{
+    nav ul{
+        display: flex;
+    }
+}
+nav li{
+    flex: 1 1 0;
+}
+    
